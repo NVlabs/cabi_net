@@ -1,0 +1,195 @@
+# Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+#
+# NVIDIA CORPORATION, its affiliates and licensors retain all intellectual
+# property and proprietary rights in and to this material, related
+# documentation and any modifications thereto. Any use, reproduction,
+# disclosure or distribution of this material and related documentation
+# without an express license agreement from NVIDIA CORPORATION or
+# its affiliates is strictly prohibited.
+
+#######################################################
+# KEEP ITEMS IN ALPHABETICAL ORDER WITHIN THEIR GROUP #
+#######################################################
+
+# Temporary and binary files
+*~
+*.log
+*.pot
+*.py[cod]
+*.orig
+*.so
+*.swp
+*/.ipynb_checkpoints/*
+.DS_Store
+.cache/*
+.thumbs/*
+__pycache__/*
+wip/*
+
+# Project files
+*.code-workspace
+.dmypy.json
+.idea
+.project
+.pydevproject
+.ropeproject
+.settings
+.vscode
+tags
+
+# Package files
+*.egg
+*.eggs/
+*.egg-info
+.installed.cfg
+
+# Unittest and coverage
+htmlcov/*
+.coverage
+.coverage.*
+.tox
+junit*.xml
+coverage.xml
+.pytest_cache/
+
+# Build and docs folder/files
+_build/*
+_coverage/*
+build/*
+dist/*
+sdist/*
+docs/_api/*
+docs/_rst/*
+docs/_build/*
+cover/*
+MANIFEST
+
+# Per-project virtualenvs
+.venv*/
+.conda*/
+venv*/*
+
+# Jupyter files
+*checkpoint.ipynb
+
+__pycache__
+cabi_net/__pycache__
+*.egg-info
+*.pyc
+
+datasets
+models
+ngc/scripts*
+benchmark
+placements
+*.profile
+*.p 
+gif/
+build/
+.vscode
+cfg/ecn/
+misc/
+
+# This could change later
+cfg/
+weights/
+tmp/
+labels/
+__pycache__
+scripts/
+data/
+exp/
+
+# From pointnet2
+pointnet2/build
+pointnet2/dist
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+
+# Rope project settings
+.ropeproject
+
