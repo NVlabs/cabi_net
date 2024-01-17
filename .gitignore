@@ -79,7 +79,6 @@ cabi_net/__pycache__
 
 datasets
 models
-ngc/scripts*
 benchmark
 placements
 *.profile
@@ -97,8 +96,6 @@ tmp/
 labels/
 __pycache__
 scripts/
-data/
-exp/
 
 # From pointnet2
 pointnet2/build
